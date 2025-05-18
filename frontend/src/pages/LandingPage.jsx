@@ -6,21 +6,25 @@ const products = [
     id: 1,
     name: "Apples",
     image: "../assets/apples.jpg",
+    price: 2.99,
   },
   {
     id: 2,
     name: "Oranges",
     image: "../assets/orange.jpg",
+    price: 3.49,
   },
   {
     id: 3,
     name: "Pineapple",
     image: "../assets/pineapple.jpg",
+    price: 4.99,
   },
   {
     id: 4,
     name: "Bananas",
     image: "../assets/bananas.jpg",
+    price: 1.99,
   },
 ];
 

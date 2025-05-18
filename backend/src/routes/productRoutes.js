@@ -1,12 +1,18 @@
-// backend/src/routes/productRoutes.js
-const express = require('express');
+const express = require("express");
+const {
+  getDta,
+  postData,
+  deleteData,
+  putData,
+} = require("../controllers/productController");
 const router = express.Router();
-const productController = require('../controllers/productController');
 
-// Route to get all products
-router.get('/', productController.getAllProducts);
+router.get("/getData", getDta);
 
-// Route to add a new product
-router.post('/', productController.addProduct);
+router.post("/postData", postData);
+
+router.delete("/deleteData", deleteData);
+
+router.put("/putData", putData);
 
 module.exports = router;

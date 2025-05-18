@@ -14,7 +14,7 @@ const Header = () => (
         </span>
       </a>
       <nav>
-        <ul className="flex space-x-6">
+        <ul className="flex space-x-6 items-center">
           <li>
             <a
               href="/"
@@ -29,6 +29,22 @@ const Header = () => (
               className="text-lg text-gray-700 hover:text-green-700 font-semibold transition-colors duration-150 border-b-2 border-transparent hover:border-green-600 pb-1"
             >
               Add Product
+            </a>
+          </li>
+          <li>
+            <a
+              href="/signup"
+              className="ml-6 px-4 py-1 rounded-full border border-green-600 text-green-700 font-semibold hover:bg-green-50 transition"
+            >
+              Sign Up
+            </a>
+          </li>
+          <li>
+            <a
+              href="/login"
+              className="ml-2 px-4 py-1 rounded-full bg-green-600 text-white font-semibold hover:bg-green-700 transition"
+            >
+              Login
             </a>
           </li>
         </ul>
