@@ -1,0 +1,11 @@
+Here are the contents for the file: /fruitmarketapp/fruitmarketapp/frontend/src/assets (fruit images)
+
+You will need to add the actual fruit images (e.g., apples.jpg, orange.jpg, pineapple.jpg, bananas.jpg) to this directory. The directory itself will be structured as follows:
+
+- /fruitmarketapp/fruitmarketapp/frontend/src/assets
+  - apples.jpg
+  - orange.jpg
+  - pineapple.jpg
+  - bananas.jpg
+
+Please ensure that you have the images saved with the correct filenames in this directory.

@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles can be added below this line */
+
+body {
+    @apply bg-gray-100;
+}
+
+.card-container {
+    @apply flex flex-wrap justify-center;
+}
+
+.custom-card {
+    @apply max-w-sm rounded overflow-hidden shadow-lg;
+}
+
+.card_image {
+    @apply w-full h-48 object-cover;
+}
+
+.card-title {
+    @apply text-xl font-bold;
+}
+
+.btn {
+    @apply bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded;
+}
