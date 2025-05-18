@@ -1,7 +1,7 @@
 const pool = require("../config/db");
 const Products = require("../models/product");
 
-exports.getDta = (req, res) => {
+exports.getData = (req, res) => {
   Products.fetchData().then((data) => {
     res.send(data);
   });

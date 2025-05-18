@@ -1,13 +1,13 @@
 const express = require("express");
 const {
-  getDta,
+  getData,
   postData,
   deleteData,
   putData,
 } = require("../controllers/productController");
 const router = express.Router();
 
-router.get("/getData", getDta);
+router.get("/", getData);
 
 router.post("/postData", postData);
 
